@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Sriracha', Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Passion One', Arial, sans-serif;
+    font-size: 10vw;
+    font-weight: bolder;
+    padding: 15px;
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;
+    color: white;    
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main {
+    font-family:'Sriracha' ;
+    
+}
+
+section {
+    padding-left: 10px;
+    font-size: 3vw;
+    line-height: 2em;
+    text-align: left;
+}
+
+main p {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+
+content.imagem {
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.589);
+    padding-left: 10px;
+    text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.555);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#segundo {
+    background: wheat url('imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+    box-shadow:inset 2px 2px 11px rgba(0, 0, 0, 0.582);
+}
+
+section#quinto {
+    background: wheat url('imagens/background002.jpg') right center no-repeat fixed;
+    background-size: cover;
+    box-shadow:inset 2px 2px 11px rgba(0, 0, 0, 0.582);
+}
+
+footer {
+    margin-top: 30px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
